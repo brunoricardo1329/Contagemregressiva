@@ -1,5 +1,7 @@
 /* Estilos padrão */
 #header {
+    position: relative;
+    top: -10px;
     text-align: center;
     font-size: 4em;
     font-style: italic;
@@ -71,3 +73,5 @@ footer {
         font-size: 0.2em;
     }
 }
+
+
