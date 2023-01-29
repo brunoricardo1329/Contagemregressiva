@@ -17,6 +17,7 @@
     transform: translate(-50%, -50%);
     font-weight: bold;
     border: 3px solid black;
+    white-space: nowrap;
 }
 section {
     text-align: center;
