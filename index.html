@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contagem regressiva</title>
+    <title>BLAZER WIN</title>
     <link rel="stylesheet" type="text/css" href="css.css">
     <style>
         body {
@@ -17,44 +17,6 @@
     </style>
 </head>
 <body>
-    
-    <div id="header">
-        <h1>Faltam</h1>
-    </div>
-    <div id="countdown"></div>
-    <section>
-        <h1 style="text-align: center;">GO LIVE Jundiaí</h1>
-    </section>
-    <script>
-        // Data final da contagem regressiva
-        var countDownDate = new Date("Feb 4, 2023 00:00:00").getTime();
-
-        // Atualiza a contagem regressiva a cada segundo
-        var x = setInterval(function() {
-
-            // Data/hora atual
-            var now = new Date().getTime();
-
-            // Distância entre a data atual e a data final
-            var distance = countDownDate - now;
-
-            // Cálculo dos dias, horas, minutos e segundos
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Exibição da contagem regressiva no elemento com id="countdown"
-            document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
-
-            // Quando a contagem regressiva chegar a zero
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("countdown").innerHTML = "EXPIRED";
-            }
-        }, 1000);
-    </script>
     <header>
         </div>
     </header>
@@ -63,6 +25,5 @@
 </body>
 <footer style="position: fixed; bottom: 0; width: 100%; text-align: center;">
     <p>Copyright © 2023. Todos os direitos reservados.</p>
-    
 </footer>
 </html>
